@@ -1,0 +1,49 @@
+# Figure properties
+figure.figsize: 6, 4        # Tamanho da figura em polegadas
+figure.dpi: 300             # Densidade de pixels ( quanto maior melhor será a resolução )
+
+# Font properties
+font.family: Arial          # Nome da fonte
+font.size: 12               # Tamanho da fonte ( será aplicado apenas nas escalas )
+font.weight: normal         # [ 'normal' | 'bold' | 'heavy' | 'light' | 'ultrabold' | 'ultralight']
+font.style: normal          # [ 'normal' | 'italic' | 'oblique' ]
+
+# Axes properties
+axes.linewidth: 1           # Espessura da linha dos eixos
+axes.labelpad: 5            # Distância entre o título do eixo e o eixo
+axes.titlesize: 14          # Tamanho do título 
+axes.titleweight: bold      # Espessura do título
+axes.labelsize: 12          # Tamanho dos títulos dos eixos
+axes.labelweight: bold      # Espessura dos títulos dos eixos
+axes.prop_cycle: cycler(color=['0072bd','d95319','edb120','7e2f8e','77ac30','4dbeee','a2142f'])
+                            # Sequência de cores dos gráficos em HEX
+                            
+# Tick properties
+# x-axis
+xtick.top: True             # True se existe marca da escala na parte de cima do gráfico
+xtick.bottom: True          # True se existe marca da escala na parte de baixo do gráfico
+xtick.direction: in         # Direção das marcas de escala no eixo x [ 'in' | 'out']
+xtick.major.size: 5         # Tamanho das marcas de escala no eixo x
+xtick.major.width: 1        # Espessura das marcas de escala no eixo x
+
+# y-axis
+ytick.right: True           # True se existe marca da escala na parte da direita do gráfico
+ytick.left: True            # True se existe marca da escala na parte da esquerda do gráfico
+ytick.direction: in         # Direção das marcas de escala no eixo y [ 'in' | 'out']
+ytick.major.size: 5         # Tamanho das marcas de escala no eixo y
+ytick.major.width: 1        # Espessura das marcas de escala no eixo y
+
+# Line properties
+lines.linewidth: 2          # Espessura padrão das linhas plotadas
+
+# Legend properties
+legend.framealpha: 10       # Opacidade da legenda
+legend.frameon: True        # True se a caixa da legenda é visível
+
+# Grid properties
+grid.linestyle: -           # Estilo de linha de grade [ '-' | '--' | '-.' | '.' ]
+grid.linewidth: 1           # Espessura das linhas de grade
+grid.color: dfdfdf          # Cor das linhas de grade em HEX
+
+# Savefig properties
+savefig.dpi: 300            # Densidade de pixels da imagem exportada
